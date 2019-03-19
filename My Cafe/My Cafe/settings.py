@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'BeanNBlissCafe.urls'
+ROOT_URLCONF = 'MyCafe.urls'
 
 TEMPLATES = [
     {
