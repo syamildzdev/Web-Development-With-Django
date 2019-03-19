@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'BeanNBlissCafe.wsgi.application'
+WSGI_APPLICATION = 'MyCafe.wsgi.application'
 
 
 # Database
