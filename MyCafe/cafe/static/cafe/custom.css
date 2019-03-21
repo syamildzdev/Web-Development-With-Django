@@ -50,3 +50,21 @@ h1, h2, h3, h4 {
 .jumbotron p {
     color: #000000!important;
 }
+
+.main-menu {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.dishname {
+    margin-top: 3rem;
+}
+
+.dishname img {
+    width: 100%;
+}
+
+.price {
+    font-size: 2rem;
+    margin-top:2rem;
+}

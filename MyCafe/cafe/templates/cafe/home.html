@@ -3,7 +3,7 @@
 {% block jumbohome %}
 	<div class="container">
 	    <div class="jumbotron text-center ">
-	        <img src="{% static 'cafe/img/floralcoffee.svg' %}" style="width:350px" class="img-responsive">
+	        <img src="{% static 'cafe/img/floralcoffee.svg' %}" style="width:350px" class="img-responsive wow fadeInDown">
 	        <p class="lead wow fadeInUp">Welcome To Our Cafe</p>
 	        <h1 class="display-3 wow fadeInUp">- Thé et Café -</h1>
 	        <p class="lead wow fadeInUp">
@@ -16,6 +16,45 @@
 
 {% block content %}
   
-    <h1>Hello </h1>
+    <div class="container-fluid main-menu">
+    	<div class="container">
+    		<div class="row dishname wow slideInLeft">
+    			<div class="col-3">
+    				<img src="{% static 'cafe/img/espresso.jpg' %}">
+    			</div>
+    			<div class="col-md-7">
+    				<p>Espresso</p>
+    				<p>L’espresso est le café extrait à son état pur. Il ne contient rien d’autre que les huiles du café et l’eau qui a contribué à l’extraction par la machine. On pourrait faire un espresso à partir d’une origine unique, mais on retire vraiment le meilleur du café lorsqu’on fait des mélanges d’origines. Les Italiens sont les premiers à avoir appris à développer de tels mélanges, produisant des espressos balancés et, conséquemment, bien meilleurs au goût.</p>
+    			</div>
+    			<div class="col-md-2">
+    				<p class="price">1,50€</p>
+    			</div>
+    		</div>
+    		<div class="row dishname wow slideInLeft">
+    			<div class="col-md-3">
+    				<img src="{% static 'cafe/img/cappucino.jpg' %}">
+    			</div>
+    			<div class="col-md-7">
+    				<p>Le Cappucino</p>
+    				<p>Pour réussir son cappuccino, l’idéal est d’utiliser du lait entier qui est gras et non du demi-écrémé. À noter qu’il peut être sec (cappuccino dry) formé d’une bonne dose de café expresso et du reste de lait mousseux assez aérien, ou 'mouillé' (cappuccino wet) composé alors de 1/3 d’expresso, de 1/3 de lait chaud fouetté et de 1/3 de mousse de lait très légère. Ce dernier type est le plus connu et le plus apprécié. </p>
+    			</div>
+    			<div class="col-md-2">
+    				<p class="price">4,50€</p>
+    			</div>
+    		</div>
+    		<div class="row dishname wow slideInLeft">
+    			<div class="col-md-3">
+    				<img src="{% static 'cafe/img/latte.jpg' %}">
+    			</div>
+    			<div class="col-md-7">
+    				<p>Latte</p>
+    				<p>Proche du cappuccino, le latte (ou café Latte) est également formée de lait chaud, d’expresso et de mousse de lait. Leur différence réside sur la quantité de lait utilisée qui pour la préparation de la latte doit être supérieure à celle du café expresso. En principe, les proportions sont de 3/5 de lait chaud fouetté, 1/5 de mousse de lait et 1/5 d’expresso. A noter que ces proportions varient en fonction des préparations des baristas. On peut, par exemple, ajouter un deuxième expresso (double) si on aime avoir un mélange un peu plus corsé.</p>
+    			</div>
+    			<div class="col-md-2">
+    				<p class="price">4,50€</p>
+    			</div>
+    		</div>
+    	</div>
+    </div>
     
 {% endblock %}
