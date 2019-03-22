@@ -30,8 +30,6 @@ h1, h2, h3, h4 {
 	font-family: 'Pacifico', cursive;	
 }
 
-
-
 .nav-link {
     color: #000000!important;
     padding-left: 2rem!important;
@@ -56,15 +54,61 @@ h1, h2, h3, h4 {
     margin-bottom: 5rem;
 }
 
+.menu-text {
+    margin-bottom:5rem;
+}
+
 .dishname {
     margin-top: 3rem;
 }
 
 .dishname img {
-    width: 100%;
+    position: relative;
+    width:  100px;
+    height: 100px!important;
+    object-fit: cover;;
 }
 
 .price {
     font-size: 2rem;
     margin-top:2rem;
+}
+
+.baristas-box {
+    padding-top:5rem;
+    padding-bottom: 5rem;
+}
+
+.baristas-box-img {
+    width:100%!important;
+    padding-right: 2rem;
+    transition:all .5s none;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.baristas-box-img:hover {
+    filter:grayscale(1);
+    
+}
+
+.baristas-box h4, p {
+    margin-top:1.2rem;
+}
+
+.baristas-box img {
+    padding-bottom:2rem;
+}
+
+.baristas-box a {
+    color:inherit;
+}
+
+.baristas-box a:hover {
+    color:#bb9f05;
+}
+
+.fa {
+    font-size: 24px!important;
+    padding:5px;
 }

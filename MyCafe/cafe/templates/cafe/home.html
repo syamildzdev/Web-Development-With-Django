@@ -17,6 +17,13 @@
 {% block content %}
   
     <div class="container-fluid main-menu">
+    	<div class="container menu-text">
+            <div class="text-center">
+                <img class="wow fadeInUp" src="{% static 'cafe/img/pattern.svg' %}">
+                <h1>Our Coffees</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente est quidem mollitia repudiandae ducimus assumenda neque velit vitae veniam provident, expedita corporis fugiat totam reiciendis error inventore enim eligendi omnis.</p>
+            </div>
+        </div>
     	<div class="container">
     		<div class="row dishname wow slideInLeft">
     			<div class="col-3">
@@ -57,4 +64,47 @@
     	</div>
     </div>
     
+    <!-- Baristas -->
+    <div class="container-fluid baristas-box text-center">
+        <div class="container">
+            <img class="wow fadeInUp" src="{% static 'cafe/img/pattern.svg' %}">
+            <h1 class="wow fadeInUp">Our baristas</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur assumenda dolorum provident veniam neque non ex beatae natus reprehenderit expedita, et, est ducimus voluptas nemo asperiores corporis aut, libero soluta!</p>
+            <div class="row">
+                <div class="col-md-4 wow fadeInUp">
+                    <img src="{% static 'cafe/img/barista1.jpg' %}" class="baristas-box-img">
+                    <h4>Shinomiya Kaguya</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis nam.</p>
+                    <div class="social-icon-pack">
+                        <span><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
+                        <span><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+                        <span><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></span>
+                        <span><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></span>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUp">
+                    <img src="{% static 'cafe/img/barista2.jpg' %}" class="baristas-box-img">
+                    <h4>Thomas Frank</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis nam.</p>
+                    <div class="social-icon-pack">
+                        <span><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
+                        <span><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+                        <span><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></span>
+                        <span><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></span>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUp">
+                    <img src="{% static 'cafe/img/barista3.jpg' %}" class="baristas-box-img">
+                    <h4>Juju Jaja</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis nam.</p>
+                    <div class="social-icon-pack">
+                        <span><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
+                        <span><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+                        <span><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></span>
+                        <span><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}
